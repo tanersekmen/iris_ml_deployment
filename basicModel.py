@@ -40,17 +40,3 @@ model.fit(scaled_X,y,epochs=epochs)
 model.save("final_iris_model.h5")
 import joblib
 joblib.dump(scaler,'iris_scaler.pkl')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
